@@ -16,9 +16,9 @@ use yii\web\AssetBundle;
  */
 class SelectizeAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/dosamigos/yii-selectize-widget/src';
+    public $sourcePath = '@bower/selectize/dist';
     public $css = [
-        'css/selectize.default.css',
+        '@src/css/selectize.default.css',
     ];
     public $js = [
         'js/standalone/selectize.js',
