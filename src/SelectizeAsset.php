@@ -16,15 +16,14 @@ use yii\web\AssetBundle;
  */
 class SelectizeAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/selectize/dist';
+    public $sourcePath = '@vendor/dosamigos/yii-selectize-widget/src';
     public $css = [
-        'css/selectize.bootstrap3.css',
+        'css/selectize.default.css',
     ];
     public $js = [
         'js/standalone/selectize.js',
     ];
     public $depends = [
-        'yii\bootstrap\BootstrapAsset',
         'yii\web\JqueryAsset',
     ];
 }
